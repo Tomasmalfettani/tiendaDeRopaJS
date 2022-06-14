@@ -198,7 +198,6 @@ switch (prendaCalzado) {
         break;      
 }
 
-
-let outfit = prendaSuperior+" "+prendaTorso+" "+prendaPantalon+" "+prendaCalzado
+const array1 = [prendaSuperior, prendaTorso, prendaPantalon, prendaCalzado];
 let outfitSuma = resultadoSuperior + resultadoTorso + resultadoPantalon + resultadoCalzado
-alert("Su vestimenta esta compuesta por: "+outfit+" Con un valor total de: $ "+outfitSuma)
+alert("Su vestimenta esta compuesta por: "+(array1.join(" - "))+" Con un valor total de: $ "+outfitSuma)
